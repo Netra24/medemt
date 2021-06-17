@@ -1,0 +1,96 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d2a3e9ee-f4f8-40e1-9d6e-1130c83cd7a1": {
+        "id": "d2a3e9ee-f4f8-40e1-9d6e-1130c83cd7a1",
+        "parent": null,
+        "name": "MedEmt.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MedEmt.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 10
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "MedEmt"
+        },
+        "triggers": [
+          {
+            "resourceName": "apiguploadApiuploadpost",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1623910181792
+      }
+    },
+    "openFiles": [
+      "d2a3e9ee-f4f8-40e1-9d6e-1130c83cd7a1"
+    ],
+    "currentFileId": "d2a3e9ee-f4f8-40e1-9d6e-1130c83cd7a1",
+    "resources": {
+      "apiguploadApiuploadpost": {
+        "name": "apiguploadApiuploadpost",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "uploadApi",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "upload",
+          "resourcePath": "/upload",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "audio",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.0",
+    "projectName": "MedEmt",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "medemt",
+      "url": "https://github.com/Netra24/medemt"
+    }
+  }
+}
